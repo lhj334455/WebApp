@@ -1,0 +1,24 @@
+<ion-view view-title="动漫资讯">
+    <ion-content class="contbg">
+        <ion-slide-box auto-play="true" does-continue="true" slide-interval="2500" id="slide-box">
+            <ion-slide ng-repeat="new in news">
+                <a class="box" href="#/tabs/newstext?title={{new.title}}"><img ng-src="{{new.imgsrc}}" alt=""></a>
+                <span class="tit">{{new.title}}</span>
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list>
+            <ion-item class="item-avatar itemcss" ng-repeat="newtext in newstext"
+                      href="#/tabs/newstext?title={{newtext.title}}">
+                <img class="lpic" ng-src="{{newtext.imgsrc}}"/>
+                <h2>{{newtext.title}}</h2>
+                <div class="author">
+                    <img ng-src="{{newtext.imgname}}" alt="">
+                    <p>{{newtext.author}}</p>
+                    <span>{{newtext.date}}</span>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+    <div class="top" ng-click="top()">top</div>
+</ion-view>

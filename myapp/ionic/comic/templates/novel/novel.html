@@ -1,0 +1,48 @@
+<ion-view view-title="轻小说">
+    <ion-content class="contbg">
+        <ion-slide-box auto-play="true" does-continue="true" slide-interval="2500" id="slide-box">
+            <ion-slide ng-repeat="novel in novels" >
+                <a class="box"  href="#/tabs/novelread?title={{novel.title}}"><img ng-src="{{novel.imgsrc}}" alt=""></a>
+                <span class="tit">{{novel.title}}</span>
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list class="listcard">
+            <ion-item>
+                <h3><i class="icon ion-ios-loop"></i>最新更新</h3>
+                <div class="row" >
+                    <div class="col" ng-repeat="novelnews in novelnews">
+                        <a href="#/tabs/novelreadnews?title={{novelnews.title}}"><img src="{{novelnews.imgsrc}}" alt=""></a>
+                        <p>{{novelnews.title}}</p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item>
+                <h3><i class="icon ion-more ionorange"></i>动画进行时</h3>
+                <div class="row">
+                    <div class="col" ng-repeat="noveling in noveling">
+                        <a href="#/tabs/novelreading?title={{noveling.title}}"><img src="{{noveling.imgsrc}}" alt=""></a>
+                        <p>{{noveling.title}}<br><span>{{noveling.author}}</span></p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item>
+                <h3><i class="icon ion-ios-play-outline ionpurple"></i>即将动画化</h3>
+                <div class="row">
+                    <div class="col" ng-repeat="novelfuture in novelfuture">
+                        <a href="#/tabs/novelreadfuture?title={{novelfuture.title}}"><img src="{{novelfuture.imgsrc}}" alt=""></a>
+                        <p>{{novelfuture.title}}<br><span>{{novelfuture.future}}</span></p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item>
+                <h3><i class="icon ion-eye ionblue"></i>经典必看</h3>
+                <div class="row">
+                    <div class="col" ng-repeat="novelclassic in novelclassic">
+                        <a href="#/tabs/novelclassic?title={{novelclassic.title}}"><img src="{{novelclassic.imgsrc}}" alt=""></a>
+                        <p>{{novelclassic.title}}<br><span>{{novelclassic.author}}</span></p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

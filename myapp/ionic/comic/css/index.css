@@ -1,0 +1,322 @@
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#tour-view #btn{
+    position: fixed;
+    top:70%;
+}
+#tour-view .slider-slide{
+    text-align: center;
+}
+#tour-view  .slider-pager{
+    text-align: center;
+    bottom: 0px;
+}
+.contbg{
+    background: #f0f0f0;
+}
+.box{
+    display: block;
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.tit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 12px;
+    background: rgba(39,157,248,0.3);
+    color: #fff;
+}
+div.slider-pager{
+    text-align: right;
+    bottom: 3px;
+}
+#slide-box .slider-pager-page{
+    color: #fff;
+    margin: 0 2px;
+}
+.newstext .inner{
+    margin: 0 5px;
+}
+.newstext .texttit{
+    padding: 15px 0;
+    margin: 0;
+    font-size: 20px;
+}
+.author{
+    height: 20px;
+}
+.author p{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 3px;
+    color: #92929a;
+}
+.author span{
+    float: right;
+    color: #92929a;
+}
+.author img{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.contenttxt p{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+.contenttxt img{
+    width: 100%;
+    height: 100%;
+}
+.itemcss{
+    margin: 10px 0;
+}
+.item-content{
+    display: block;
+    height: 80px;
+}
+.itemcss .item-content img:first-child{
+    border-radius: 0;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    max-width: 75px;
+    max-height: 58px;
+}
+.itemcss .item-content h2{
+    height: 78%;
+    margin: -6px 0 3px 13px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.itemcss .item-content .author{
+    padding-left: 35px;
+    font-size: 12px;
+    height: 20px;
+    position: relative;
+}
+.itemcss .item-content .author p{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 3px;
+    color: #92929a;
+}
+.itemcss .item-content .author img{
+    position: absolute;
+    left: 12px;
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.top{
+    width:44px;
+    height:44px;
+    border-radius: 44px;
+    color:white;
+    background-color: #00a0e9;
+    cursor: pointer;
+    text-align: center;
+    line-height: 44px;
+    position: absolute;
+    bottom:44px;
+    right:0;
+}
+/*novelread*/
+.noveltit{
+    height: 180px;
+    padding: 15px;
+    background: linear-gradient(to bottom right, #9010f2 , #00ffff);
+
+}
+.noveltit img{
+    float: left;
+    width: 115px;
+    height: 150px;
+}
+.noveltit ul{
+    padding-left: 130px;
+}
+.noveltit li{
+    color: #fff;
+    padding-bottom: 2px;
+}
+.noveltit i{
+    display: inline-block;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 18px;
+    background-color: #4eaef8;
+    margin-right: 5px;
+}
+.noveltit a{
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 3px 8px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.synopsis{
+    padding: 5px 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.share{
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+}
+.share a{
+    color: #9e9e9e;
+}
+.share i{
+    font-size: 16px;
+}
+.newchapter{
+    margin: 3px 0;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+.newchapter a{
+    float: right;
+}
+.allchapter{
+    margin: 3px 0 0 0;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+.itemcp i{
+    color: #FFA500;
+    font-size: 16px;
+}
+.itemcp span{
+    color: #000;
+    margin-left: 3px;
+    font-size: 16px;
+}
+.listcard{
+
+}
+.listcard ion-item{
+    margin: 5px 0;
+    padding: 5px;
+}
+.listcard h3{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.listcard i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+.listcard .ionorange{
+    background-color: #FFA500;
+}
+.listcard .ionpurple{
+    background-color: #A757A8;
+}
+.listcard .ionblue{
+    background-color: blue;
+}
+.listcard div.col{
+    width: 30%;
+    height: 30%;
+}
+.listcard div.col a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.listcard div.col img{
+    border-radius: 10px;
+}
+.listcard div.col p{
+    font-size: 13px;
+}
+.listcard div.col span{
+    color: #A7A7A7;
+}
+/*mylogin*/
+.login{
+    width: 100%;
+    height: 325px;
+    position: relative;
+    text-align: center;
+    background: url("../images/newslun2.jpg") no-repeat;
+}
+.logintext{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 45%;
+    top: 100px;
+}
+.logintext img{
+    border: 2px solid #00a0dc;
+    border-radius: 50%;
+}
+.logintext p{
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.itemlogin i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+.itemlogin .blue{
+    background-color: #00a0dc;
+}
+.itemlogin .green{
+    background-color: green;
+}
+.itemlogin .orange{
+    background-color: #ffa000;
+}
